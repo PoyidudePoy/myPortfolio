@@ -58,8 +58,7 @@
 
         text-decoration: none;
         color: rgb(0, 0, 0);
-        background-color: white;
-        opacity: 0.7;
+        background-color:#FDD0A2;
         padding: 10px;
         border-radius: 5px;
 
@@ -70,7 +69,7 @@
     .sidebar div a:hover {
 
         color: burlywood;
-        background-color: rgb(221, 221, 221);
+        background-color: rgb(172, 128, 128);
         transition: 0.3s;
 
     }
@@ -91,7 +90,8 @@
 
         width: 70%;
         height: 70%;
-        background-color: rgb(214, 238, 238);
+        background-color: #FDD0A2;
+        border-radius: 10px;
         box-shadow:
             0 2px 4px rgba(0, 0, 0, 0.1),
             0 8px 15px rgba(0, 0, 0, 0.2);
@@ -105,13 +105,27 @@
     }
 
 
-
-
     .container .content .card img {
 
         width: 30%;
         margin-left: 35%;
         margin-top: 5%;
+
+
+
+    }
+
+    .texts {
+
+        text-align: center;
+
+    }
+
+    .texts h2 {
+
+        margin-right: 20%;
+        font-weight: 500;
+
 
 
 
