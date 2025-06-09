@@ -123,10 +123,17 @@
 
     .texts h2 {
 
-        margin-right: 20%;
+        margin-right: 10%;
         font-weight: 500;
 
 
 
+
+    }
+    .content .card .texts h2 img {
+
+        max-width: 40px;
+        margin: 0;        
+        vertical-align: middle;
 
     }
