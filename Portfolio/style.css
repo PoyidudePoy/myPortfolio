@@ -14,8 +14,6 @@
         padding: 0;
         height: 100%;
         font-family: 'Jost', 'Segoe UI', Geneva, Verdana, sans-serif;
-        overflow-x: hidden;
-        overflow-y: hidden;
         background: url(assets/court.webp);
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -58,7 +56,7 @@
 
         text-decoration: none;
         color: rgb(0, 0, 0);
-        background-color:#FDD0A2;
+        background-color: #FDD0A2;
         padding: 10px;
         border-radius: 5px;
 
@@ -78,9 +76,6 @@
     .content {
 
         width: 60%;
-
-
-
 
 
     }
@@ -130,10 +125,57 @@
 
 
     }
+
     .content .card .texts h2 img {
 
         max-width: 40px;
-        margin: 0;        
+        margin: 0;
         vertical-align: middle;
+
+    }
+
+
+    /* for about.html */
+
+
+    .card2 {
+
+
+        width: 90%;
+        height: 80%;
+        margin: 10%;
+        margin-top: 7%;
+        margin-left: 1%;
+        background-color: #FDD0A2;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),  0 8px 15px rgba(0, 0, 0, 0.2); ;
+        border-radius: 10px;
+
+
+    }
+
+    .container .content .card2 div img {
+
+
+        
+        width: 20%;
+        margin: 2%;
+
+
+
+
+    }
+
+    .container .content .card2 div {
+
+
+        display: flex;
+        align-items: flex-start   ;
+
+    }
+
+    .card2 div p {
+
+    font-weight: 800;
+
 
     }
