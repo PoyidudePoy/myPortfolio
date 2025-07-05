@@ -153,7 +153,7 @@
 
     }
 
-    .container .content .card2 div img {
+    .container .content .card2 .One img {
 
 
         
@@ -165,17 +165,36 @@
 
     }
 
-    .container .content .card2 div {
-
+    .container .content .card2 .One {
 
         display: flex;
-        align-items: flex-start   ;
+        align-items: flex-start;
+        
 
-    }
 
-    .card2 div p {
-
-    font-weight: 800;
 
 
     }
+
+     .container .content .card2 .One .right {
+
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-top: 5%;
+        
+
+        
+
+
+
+    }
+ 
+     .container .content .card2  .One .right p {
+
+        margin: 1%;
+        
+
+
+         }
+    
