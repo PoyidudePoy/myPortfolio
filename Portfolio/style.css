@@ -168,7 +168,6 @@
     .container .content .card2 .One {
 
         display: flex;
-        align-items: flex-start;
         
 
 
@@ -180,7 +179,7 @@
 
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 43%;
         margin-top: 5%;
         
 
@@ -191,10 +190,91 @@
     }
  
      .container .content .card2  .One .right p {
-
+        
         margin: 1%;
         
 
 
          }
-    
+
+     .container .content .card2 .One .right2 {
+
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin-top: 5%;
+
+
+     }
+
+    .right2 p {
+
+    margin: 1%;
+
+
+    }
+
+     .container .content .card2 .two  {
+
+        display: flex;
+
+
+
+
+
+     }
+
+     .container .content .card2 .two .why {
+
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+
+
+
+
+
+     }
+
+
+     .why h1 {
+
+        text-align: center;
+        margin: 0;
+        margin-top: 5%;
+
+     }
+
+     .why p {
+
+        margin: 0;        
+        margin-left: 4%;
+        margin-top: 2%;
+
+
+
+     }
+
+      
+
+    .container .content .card2 .two  img {
+
+
+        margin-top: 7%;
+        margin-left: 3%;
+        width: 20%;
+
+
+
+
+    }
+
+     .container .content .card2 .two .why h1 img {
+
+        margin: 0;
+        width: 50px;
+        vertical-align: middle;
+
+
+
+    }
