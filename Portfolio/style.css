@@ -12,7 +12,6 @@
 
         margin: 0;
         padding: 0;
-        height: 100%;
         font-family: 'Jost', 'Segoe UI', Geneva, Verdana, sans-serif;
         background: url(assets/court.webp);
         background-size: 100% 100%;
@@ -24,9 +23,11 @@
     .container {
 
         display: flex;
+        flex-direction: row;
         width: 100%;
-        height: 100vh;
-
+        min-height: 100vh;
+        height: auto;
+        max-width: 1500px;
 
 
 
@@ -36,7 +37,6 @@
     .sidebar {
 
         width: 40%;
-
 
     }
 
@@ -278,3 +278,69 @@
 
 
     }
+
+
+    /* for contacts.html */
+
+    .container .content .card3 {
+
+
+        margin: 5%;
+        width: 80%;
+        height: 80%;
+        background-color: #FDD0A2;
+        border-radius: 10px;
+
+
+
+
+
+    }
+
+    .container .content .card3 img {
+
+        margin: 0;
+        margin-left: 35%;
+        margin-top: 5%;
+        width: 20%;
+        
+        
+
+
+
+
+    }
+
+    .container .content .card3 .icons {
+
+
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+        
+
+
+
+
+    }
+    .container .content .card3 .icons img {
+
+        width: 30px;
+        margin: 2%;
+        
+        
+
+
+
+
+    }
+
+     .container .content .card3 h1 {
+
+        margin: 0;
+        margin-left: 32%;
+        color: rgb(139, 92, 31);
+
+
+
+     }
