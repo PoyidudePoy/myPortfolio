@@ -327,9 +327,16 @@
 
         width: 30px;
         margin: 2%;
-        
-        
+        vertical-align: middle;
 
+
+
+    }
+
+    .container .content .card3 .icons p {
+
+
+        margin: 0;
 
 
 
@@ -340,6 +347,7 @@
         margin: 0;
         margin-left: 32%;
         color: rgb(139, 92, 31);
+
 
 
 
