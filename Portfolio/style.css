@@ -1,7 +1,7 @@
     * {
 
         box-sizing: border-box;
-          margin: 0;
+        margin: 0;
         padding: 0;
 
 
@@ -11,10 +11,8 @@
 
     body {
 
-
-      
         font-family: 'Jost', 'Segoe UI', Geneva, Verdana, sans-serif;
-        background: url(assets/court.webp);
+        background: url(assets/haikyuu.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
@@ -30,9 +28,6 @@
         height: auto;
         max-width: 1500px;
 
-
-
-
     }
 
     .sidebar {
@@ -46,10 +41,6 @@
 
         padding: 3%;
         margin: 10%;
-
-
-
-
 
     }
 
@@ -73,14 +64,12 @@
 
     }
 
-
     .content {
 
         width: 60%;
 
 
     }
-
 
     .card {
 
@@ -93,21 +82,13 @@
             0 8px 15px rgba(0, 0, 0, 0.2);
         margin: 10%;
 
-
-
-
-
-
     }
-
 
     .container .content .card img {
 
         width: 30%;
         margin-left: 35%;
         margin-top: 5%;
-
-
 
     }
 
@@ -122,9 +103,6 @@
         margin-right: 10%;
         font-weight: 500;
 
-
-
-
     }
 
     .content .card .texts h2 img {
@@ -134,7 +112,6 @@
         vertical-align: middle;
 
     }
-
 
     /* for about.html */
 
@@ -148,57 +125,40 @@
         margin-top: 7%;
         margin-left: 1%;
         background-color: #FDD0A2;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),  0 8px 15px rgba(0, 0, 0, 0.2); ;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 15px rgba(0, 0, 0, 0.2);
+        ;
         border-radius: 10px;
-
 
     }
 
     .container .content .card2 .One img {
 
-
-        
         width: 20%;
         margin: 2%;
-
-
-
-
     }
 
     .container .content .card2 .One {
 
         display: flex;
-        
-
-
-
-
     }
 
-     .container .content .card2 .One .right {
+    .container .content .card2 .One .right {
 
         display: flex;
         flex-direction: column;
         width: 43%;
         margin-top: 5%;
-        
+    }
 
-        
+    .container .content .card2 .One .right p {
+
+        margin: 1%;
 
 
 
     }
- 
-     .container .content .card2  .One .right p {
-        
-        margin: 1%;
-        
 
-
-         }
-
-     .container .content .card2 .One .right2 {
+    .container .content .card2 .One .right2 {
 
         display: flex;
         flex-direction: column;
@@ -206,59 +166,53 @@
         margin-top: 5%;
 
 
-     }
+    }
 
     .right2 p {
 
-    margin: 1%;
+        margin: 1%;
 
 
     }
 
-     .container .content .card2 .two  {
+    .container .content .card2 .two {
 
         display: flex;
 
 
+    }
 
-
-
-     }
-
-     .container .content .card2 .two .why {
+    .container .content .card2 .two .why {
 
         display: flex;
         flex-direction: column;
         width: 70%;
 
 
+    }
 
 
-
-     }
-
-
-     .why h1 {
+    .why h1 {
 
         text-align: center;
         margin: 0;
         margin-top: 5%;
 
-     }
+    }
 
-     .why p {
+    .why p {
 
-        margin: 0;        
+        margin: 0;
         margin-left: 4%;
         margin-top: 2%;
 
 
 
-     }
+    }
 
-      
 
-    .container .content .card2 .two  img {
+
+    .container .content .card2 .two img {
 
 
         margin-top: 7%;
@@ -267,16 +221,13 @@
 
 
 
-
     }
 
-     .container .content .card2 .two .why h1 img {
+    .container .content .card2 .two .why h1 img {
 
         margin: 0;
         width: 50px;
         vertical-align: middle;
-
-
 
     }
 
@@ -312,6 +263,7 @@
 
 
     }
+
     .container .content .card3 .icons img {
 
         width: 30px;
@@ -327,19 +279,19 @@
 
     }
 
-     .container .content .card3 h1 {
+    .container .content .card3 h1 {
 
         margin: 0;
         margin-left: 32%;
         color: rgb(139, 92, 31);
 
-     }
+    }
 
 
-     /* for background.html */
-     
-     
-     .container .content .card4 {
+    /* for background.html */
+
+
+    .container .content .card4 {
 
         width: 80%;
         height: 80%;
@@ -347,27 +299,93 @@
         background-color: #FDD0A2;
         margin: 5%;
         margin-left: 0%;
-     }
+    }
 
 
-     .container .content .card4 .block1 p img {
+    .container .content .card4 .block1 p img {
 
-        width: 10%;
+        width: 8%;
         vertical-align: middle;
 
-     }
+    }
 
-     .block1 p {
+    .block1 p {
 
         margin-top: 5%;
+        margin-left: 5%;
+
+
+    }
+
+    #text {
+
+        margin-top: 1%;
+        margin-left: 5%;
 
 
 
-     }
+    }
 
     .container .content .card4 .block1 {
 
 
         display: flow-root;
-        
+        height: 30%;
+
     }
+
+    .container .content .card4 .block2 {
+
+
+        
+        height: 25%;
+
+    }
+
+    .card4 .block2 p img {
+
+        width: 9%;
+        vertical-align: middle;
+        margin-right: 2%;
+        
+
+
+    }
+    .card4 .block2 p {
+
+        margin-left: 5%;
+        
+
+
+
+    }
+    .card4 .block3 {
+
+        height: 30%;
+
+
+
+
+
+
+    }
+    .card4 .block3 p img {
+
+        width: 9%;
+        vertical-align: middle;
+        margin-right: 2%;
+
+
+
+
+    }
+
+    .card4 .block3 p {
+
+        margin-left: 5%;
+
+
+    }
+
+   
+    
