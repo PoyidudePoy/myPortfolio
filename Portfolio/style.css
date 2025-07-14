@@ -337,7 +337,7 @@
     .container .content .card4 .block2 {
 
 
-        
+
         height: 25%;
 
     }
@@ -347,18 +347,20 @@
         width: 9%;
         vertical-align: middle;
         margin-right: 2%;
-        
+
 
 
     }
+
     .card4 .block2 p {
 
         margin-left: 5%;
-        
+
 
 
 
     }
+
     .card4 .block3 {
 
         height: 30%;
@@ -369,6 +371,7 @@
 
 
     }
+
     .card4 .block3 p img {
 
         width: 9%;
@@ -387,5 +390,124 @@
 
     }
 
-   
-    
+    /* for hobbies.html */
+
+
+
+    .container .content .card5 {
+
+        width: 80%;
+        height: 80%;
+        background-color: #FDD0A2;
+        border-radius: 10px;
+        margin: 5%;
+        margin-left: 0%;
+        display: flow-root;
+
+
+
+
+    }
+
+     .container .content .card5 .block4 {
+
+        display: flex;
+
+
+
+
+    }
+
+    .card5 img {
+
+        max-width: 15%;
+        object-fit: contain;
+        vertical-align: text-top;
+        margin-top: 2%;
+
+
+    }
+
+    .card5 h1 {
+
+        margin-top: 2%;
+
+
+    }
+
+    .block4 .row1 {
+
+
+        width: 90%;
+
+
+    }
+
+     .container .content .card5 .block5 {
+
+        margin-top: 5%;
+        display: flex;
+
+    }
+
+      .container .content .card5 .block5 .row2 {
+
+        display: flex;
+        
+
+
+     }
+
+     .container .content .card5 .block5 .row2 .hu h1 {
+
+        text-align: end;
+
+
+
+    }
+
+    .block5 .row2 .hu {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+     .block5 .row2 img {
+
+        margin-right: 3%;
+
+
+     }
+
+     .block5 .row2 .hu p {
+
+        margin-left: 5%;
+
+
+     }
+
+      .container .content .card5 .block6 {
+
+        display: flex;
+        margin-top: 5%;
+
+
+
+
+      }
+
+      .container .content .card5 .block6 img {
+
+        max-width: 15%;
+        object-fit: contain;
+
+
+      }
+  
+       .container .content .card5 .block6 .row3 p {
+
+
+        margin-right: 5%;
+
+       }
