@@ -1,0 +1,43 @@
+
+/* for index.html responsive design */
+@media (max-width: 600px) {
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        width: 40%;
+    }
+    .container .sidebar div {
+        margin-top: 20%;
+    }
+    .sidebar div a {
+        font-size: 1rem;
+
+    }
+    .card {
+        margin: 0;
+         margin-top: 30%;
+         width: 90%;
+         height: 40%;
+    }
+    .container .content .card img {
+        width: 40%;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .texts {
+
+        font-size: 12px;
+
+    }
+    .texts h2 {
+        font-weight: 500;
+        width: 100%;
+        margin: 0;
+    }
+    .content .card .texts h2 img {
+        max-width: 20px;
+        margin: 0;
+        vertical-align: middle;
+    }
+}
