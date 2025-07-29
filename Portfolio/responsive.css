@@ -1,35 +1,43 @@
 
 /* for index.html responsive design */
 @media (max-width: 600px) {
-    .sidebar {
+   html body {
+
+        width: auto;
+
+    }
+
+   
+
+     .sidebar {
         display: flex;
         flex-direction: column;
-        margin-top: 2%;
-        width: 40%;
-        height: auto;
+        width: 30%;
+        height: 100dvh;
     }
     .container .sidebar div {
         margin-top: 50%;
+        width: auto;
+        margin: 70% 0 0 2%;
     }
+    
     .sidebar div a {
         font-size: 1rem;
-
     }
     .card {
-        margin: 0;
+         margin: 0;
          margin-top: 30%;
-         width: 90%;
-         height: 40%;
+         width: 110%;
+         height: auto;
+         flex-shrink: 0;
     }
     .container .content .card img {
-        width: 40%;
-        margin-left: 35%;
-        margin-top: 5%;
+        width: 50%;
+        margin-left: 25%;
     }
     .texts {
 
-        font-size: 12px;
-
+        font-size: 1.1rem;
     }
     .texts h2 {
         font-weight: 500;
@@ -37,8 +45,125 @@
         margin: 0;
     }
     .content .card .texts h2 img {
-        max-width: 20px;
+        max-width: 25px;
         margin: 0;
         vertical-align: middle;
     }
+
+    #mayang {
+
+        margin-top: 12rem;
+
+
+
+    }
+    /* for about.html responsive design */
+    
+  
+   
+    .sidebar div a {
+        font-size: 1rem;
+    }
+
+    .card2 {
+    
+        width: 110%;
+        height: auto;
+        flex-shrink: 0;
+
+    }
+
+     .container .content .card2 .One  {
+
+        flex-direction: column;
+        
+     }
+
+     .container .content .card2 .One img {
+
+        width: 70%;
+        margin-left: 13%;
+    }
+
+
+       .container .content .card2 .One .right {
+
+        margin-top: 5%;
+        flex-direction: column;
+        font-size: 0.9rem;
+        width: auto;
+    }
+
+      .container .content .card2 .One .right p {
+     
+        margin: 0;
+        padding: 0.2rem;
+      }
+
+    .container .content .card2 .One .right2 {
+
+        flex-direction: column;
+        font-size: 0.9rem;
+        width: auto;
+        margin-top: 0;
+    }
+     .container .content .card2 .One .right2 p {
+
+        margin: 0;
+        padding: 0.2rem;
+
+     }
+     .container .content .card2 .two {
+
+        flex-direction: column;
+
+    }
+
+      .container .content .card2 .two .why {
+
+      
+        width: auto;
+
+
+    }
+
+    .why h1 {
+
+        text-align: center;
+        margin: 0;
+        margin-top: 1rem;
+        font-size: 1.28rem;
+        margin-left: 0;
+        padding: 0;
+
+    }
+    .container .content .card2 .two .why img {
+
+
+        margin-top: 7%;
+        margin-left: 1%;
+        max-width: 15%;
+        margin-right: 0;
+        padding: 0;
+        
+
+
+    }
+
+    .container .content .card2 .two img {
+
+        align-self: center;
+        margin: 0;
+        width: 60%;
+
+
+
+    }
+   
+
+    
+   
+
 }
+
+
