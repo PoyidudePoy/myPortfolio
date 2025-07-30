@@ -1,23 +1,21 @@
-
 /* for index.html responsive design */
 @media (max-width: 600px) {
-   html body {
 
-
-
-    }
+    html,
+    body {}
 
     .content {
 
         overflow: scroll;
         margin-left: 30%;
+        width: 70%;
 
 
 
     }
-   
 
-     .sidebar {
+
+    .sidebar {
         display: flex;
         flex-direction: column;
         width: 30%;
@@ -25,35 +23,41 @@
         position: fixed;
 
     }
+
     .container .sidebar div {
         margin-top: 50%;
         width: auto;
         margin: 70% 0 0 2%;
     }
-    
+
     .sidebar div a {
         font-size: 1rem;
     }
+
     .card {
-         margin: 0;
-         margin-top: 30%;
-         width: 100%;
-         height: auto;
-         flex-shrink: 0;
+        margin: 0;
+        margin-top: 10%;
+        width: 90%;
+        height: auto;
+        flex-shrink: 0;
     }
+
     .container .content .card img {
         width: 50%;
         margin-left: 25%;
     }
+
     .texts {
 
         font-size: 1.0em;
     }
+
     .texts h2 {
         font-weight: 500;
         width: 100%;
         margin: 0;
     }
+
     .content .card .texts h2 img {
         max-width: 25px;
         margin: 0;
@@ -62,40 +66,41 @@
 
     #mayang {
 
-        margin-top: 12rem;
+        margin-top: 18rem;
 
 
 
     }
+
     /* for about.html responsive design */
-    
-  
-   
+
+
+
     .sidebar div a {
         font-size: 1rem;
     }
 
     .card2 {
-    
-        width: 100%;
+
+        width: 90%;
         height: auto;
         flex-shrink: 0;
     }
 
-     .container .content .card2 .One  {
+    .container .content .card2 .One {
 
         flex-direction: column;
-        
-     }
 
-     .container .content .card2 .One img {
+    }
+
+    .container .content .card2 .One img {
 
         align-self: center;
         width: 50%;
     }
 
 
-       .container .content .card2 .One .right {
+    .container .content .card2 .One .right {
 
         margin-top: 5%;
         flex-direction: column;
@@ -103,11 +108,11 @@
         width: auto;
     }
 
-      .container .content .card2 .One .right p {
-     
+    .container .content .card2 .One .right p {
+
         margin: 0;
         padding: 0.2rem;
-      }
+    }
 
     .container .content .card2 .One .right2 {
 
@@ -116,29 +121,32 @@
         width: auto;
         margin-top: 0;
     }
-     .container .content .card2 .One .right2 p {
+
+    .container .content .card2 .One .right2 p {
 
         margin: 0;
         padding: 0.2rem;
 
-     }
-     .container .content .card2 .two {
+    }
+
+    .container .content .card2 .two {
 
         flex-direction: column;
         width: auto;
 
     }
 
-      .container .content .card2 .two .why {
+    .container .content .card2 .two .why {
 
-      
+
         width: auto;
 
 
     }
+
     .container .content .card2 .two .why p {
 
-      
+
         padding: 2px;
 
     }
@@ -153,6 +161,7 @@
         padding: 0;
 
     }
+
     .container .content .card2 .two .why img {
 
 
@@ -161,7 +170,7 @@
         max-width: 15%;
         margin-right: 0;
         padding: 0;
-        
+
 
 
     }
@@ -175,11 +184,251 @@
 
 
     }
-   
 
-    
-   
+    /* for contact.html responsive design */
+    .container .content .card3 {
+
+        height: auto;
+        width: 95%;
+        margin: 0;
+        margin-top: 10%;
+        overflow-wrap: break-word;
+
+
+
+    }
+
+    .container .content .card3 h1 {
+
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .container .content .card3 img {
+
+        margin: 0;
+        width: 45%;
+        margin-left: 30%;
+        margin-top: 2%;
+
+
+    }
+
+    .container .content .card3 .icons {
+
+
+        display: flex;
+        flex-direction: column;
+        margin: 0.2rem;
+
+
+    }
+
+    .container .content .card3 .icons p {
+
+
+        margin: 0;
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container .content .card3 .icons img {
+
+        width: 40px;
+        margin: 2%;
+        margin-left: 40%;
+    }
+
+    #-- {
+
+        margin-top: 5rem;
+        text-align: center;
+
+
+
+    }
+
+    #middle {
+
+
+        text-align: center;
+
+    }
+
+    .container .content .card3 .icons p a {
+
+        font-size: 0.8rem;
+
+
+    }
+
+    /* for background.html responsive design */
+
+    .container .content .card4 {
+
+        width: 95%;
+        height: auto;
+        border-radius: 10px;
+        background-color: #FDD0A2;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+
+    .container .content .card4 .block1 {
+
+
+        display: flow-root;
+        height: 30%;
+        margin-bottom: 15%;
+
+    }
+
+    .container .content .card4 .block2 {
+
+        height: 25%;
+        margin-bottom: 15%;
+
+
+    }
+
+       .container .content .card4 p {
+
+        font-size: 1.1rem;
+
+
+       }
+
+       #---- {
+
+        text-align: center;
+
+     }
+
+     /* for hobbies.html responsive design */
+
+     .container .content .card5 {
+
+        width: 95%;
+        height: auto;
+        background-color: #FDD0A2;
+        border-radius: 10px;
+        margin: 5%;
+        margin-left: 0%;
+        display: flow-root;
+    }
+
+     .container .content .card5 .block4 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .card5 img {
+
+        max-width: 30%;
+        object-fit: contain;
+        vertical-align: text-top;
+        margin: 0;
+        margin-top: 2%;
+    }
+    .card5 h1 {
+
+        margin-top: 0%;
+        text-align: center;
+
+    }
+
+    .container .content .card5 .block4 .row1 p {
+
+        text-align: justify;
+    }
+
+    .container .content .card5 .block5 .row2 {
+
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+   .container .content .card5 .block5 .row2 .hu  {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+   }
+
+    .container .content .card5 .block5 .row2 .hu .new {
+
+        order: 2;
+
+    }
+
+      .container .content .card5 .block5 .row2 .hu .new h1 {
+
+        text-align: center;
+
+
+      }
+
+      .container .content .card5 .block5 .row2 .hu .new p {
+
+        text-align: justify;
+        margin-left: 0.4rem;
+
+      }
+
+    .container .content .card5 .block5 .row2 .hu img {
+
+        order: 1;
+        align-self: center;
+        
+
+    }
+
+     .container .content .card5 .block5 {
+
+        width: auto;
+        display: flex;
+        margin-top: 0;
+
+
+     }
+
+       .container .content .card5 .block6 {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+
+
+
+
+      }
+
+       .container .content .card5 .block6 img {
+
+        max-width: 40%;
+        object-fit: contain;
+        align-self: center;
+
+
+      }
+
+        .container .content .card5 .block6 .row3 p {
+
+            text-align: justify;
+            margin-left: 0.4rem;
+        
+       }
+
+
+
+
 
 }
-
-

@@ -285,6 +285,7 @@
 
         margin: 0;
 
+
     }
 
     .container .content .card3 h1 {
@@ -292,6 +293,15 @@
         margin: 0;
         margin-left: 32%;
         color: rgb(139, 92, 31);
+
+    }
+
+     #-- {
+
+       
+        text-align: center;
+
+
 
     }
 
@@ -397,6 +407,13 @@
 
 
     }
+     
+     #---- {
+
+        text-align: center;
+
+     }
+    
 
     /* for hobbies.html */
 
@@ -477,14 +494,12 @@
     .block5 .row2 .hu {
 
         display: flex;
-        flex-direction: column;
 
     }
 
      .block5 .row2 img {
 
-        margin-right: 3%;
-
+        margin-right: 2%;
 
      }
 
@@ -517,5 +532,5 @@
 
 
         margin-right: 5%;
-        ;
+        
        }
